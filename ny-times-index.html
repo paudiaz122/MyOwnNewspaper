@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/styles/ny-times.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Commissioner&family=Open+Sans:wght@300&family=UnifrakturCook:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/b3c5c11f23.js"
       crossorigin="anonymous"
@@ -11,28 +15,48 @@
     <title>The Coronavirus Unveiled</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <div class="icons">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-search"></i>
+      </div>
+      <div class="nyt-title">
+        <a href="https://www.nytimes.com/">The New York Times</a>
+      </div>
+      <div class="user-options">
+        <span>Subscribe now</span>
+        <span class="account">
+          <p>Account</p>
+          <i class="fas fa-angle-down"></i>
+        </span>
+      </div>
+    </header>
     <section class="main">
       <div class="cover">
-        <h1>The Coronavirus Unveiled</h1>
-        <p>
-          <b>
-            By
-            <a href="https://www.nytimes.com/by/carl-zimmer">Carl ZimmerOct</a>
-          </b>
-          <date>Oct. 9, 2020</date>
-        </p>
+        <div class="cover-txt">
+          <h1>The Coronavirus Unveiled</h1>
+          <p>
+            <b>
+              By
+              <a href="https://www.nytimes.com/by/carl-zimmer">
+                Carl Zimmer
+              </a>
+            </b>
+            <date>Oct. 9, 2020</date>
+          </p>
+        </div>
         <img
           src="./assets/img/ny-times/amaro-coronavirus-cover-1440.jpg"
           alt="An atom-by-atom model of the coronavirus."
         />
-      </div>
-      <div class="container">
-        <span class="caption">An atom-by-atom model of the coronavirus.</span>
-        <span class="caption-author">
+        <div class="caption-div">
+          <span class="caption">An atom-by-atom model of the coronavirus.</span>
+          <span class="caption-author">Lorenzo Casalino, Amaro Lab, U.C. San Diego</span>
+        </div>
           Lorenzo Casalino, Amaro Lab, U.C. San Diego
         </span>
-
+      </div>
+      <div class="container">
         <p>
           In February, as the new coronavirus swept across China and shut down
           entire cities, a scientist named Sai Li set out to paint its portrait.

@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Amiri', georgia, 'times new roman', serif;
+}
+
+/********* HEADER *********/
+header {
+  /* display: flex; */
+  background-color: black;
+  color: white;
+  /* justify-content: space-between; */
+  padding: 4px 15px 2px;
+  height: 42px;
+  /* align-items: center; */
+  position: relative;
+}
+
+header .account {
+  display: flex;
+}
+
+.icons {
+  width: 76px;
+  height: 33px;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  left: 10px;
+}
+
+.icons i {
+  font-size: 13px;
+}
+
+.nyt-title {
+  text-align: center;
+}
+
+.nyt-title a {
+  text-decoration: none;
+  color: white;
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 25px;
+  margin: 6px auto 0;
+  height: 26px;
+}
+
+.user-options {
+  width: 202px;
+  height: 33px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  right: 10px;
+  top: 4px;
+}
+
+.user-options span:first-child {
+  font-family: 'Commissioner', sans-serif;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.user-options span {
+  text-align: center;
+}
+
+.account {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  width: 67px;
+}
+
+/********* COVER *********/
+.cover {
+  position: relative;
+  color: white;
+}
+
+.cover-txt {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Amiri', serif;
+  font-weight: 700;
+}
+
+.cover-txt h1 {
+  font-size: 75px;
+  line-height: 70px;
+  text-shadow: -1px 2px 4px rgba(0, 0, 0, 0.9);
+  margin-bottom: 20px;
+}
+
+.cover-txt p {
+  font-size: 16px;
+}
+
+.cover-txt a {
+  color: white;
+}
+
+.cover-txt date {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.cover img {
+  width: 100%;
+}
+
+/********* MAIN *********/
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  font-size: 23px;
+  line-height: 33px;
+}
+
+.caption-div {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.caption {
+  font-size: 17px;
+  line-height: 23px;
+  color: #777;
+}
+
+.caption-author {
+  color: #aaa;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+/* titulos
+font-family: "nyt-cheltenham", georgia, "times new roman", times, serif;
+amiri bold weight 700
+
+texto foto
+font-family: nyt-franklin, helvetica, arial, sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+texto
+font-family: 'nyt-imperial', georgia, 'times new roman', times, serif;
+amiri normal weight 400
+
+
+font-family: 'Amiri', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'UnifrakturCook', cursive;
+*/
