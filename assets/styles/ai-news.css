@@ -11,6 +11,7 @@ section {
   width: 1230px;
 }
 
+/************* HEADER ************/
 .header-container,
 .nav-bar,
 .more,
@@ -49,10 +50,6 @@ section {
   width: 208px;
 }
 
-/* .button {
-  width: 138px;
-} */
-
 button {
   width: 130px;
   border-radius: 3px;
@@ -63,12 +60,19 @@ button {
   background: #65bb12;
 }
 
+/************* MAIN ************/
 .container p {
   font-size: 17px;
   font-weight: 500;
   color: #0e0618;
   line-height: 1.55;
   margin-bottom: 20px;
+}
+
+.container a {
+  color: #3289c8;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 h1 {
@@ -95,6 +99,42 @@ h1 {
   align-items: center;
 }
 
+.icons {
+  width: 230px;
+  display: flex;
+}
+
+.icons a {
+  margin-right: 5px;
+}
+
+.comment-icon {
+  margin-right: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-icons a:first-child {
+  margin-left: 10px;
+}
+
+.author {
+  width: 280px;
+  margin-left: 50px;
+}
+
+.author p {
+  font-size: 12px;
+}
+
+.author a {
+  color: black;
+  font-weight: bold;
+}
+
 h2 {
   color: #778596;
   font-size: 22px;
@@ -109,10 +149,4 @@ h2 {
   font-size: 13px;
   margin: 10px 0 20px;
   text-align: center;
-}
-
-.container a {
-  color: #3289c8;
-  text-decoration: none;
-  cursor: pointer;
 }
